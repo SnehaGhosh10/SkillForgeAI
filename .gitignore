@@ -1,0 +1,52 @@
+# Ignore Python cache and environment
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# VSCode, PyCharm, etc.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# FAISS index files if you persist them
+index.faiss
+index.pkl
+faiss_index/
+
+# Streamlit secrets (if used)
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Jupyter and IPython
+.ipynb_checkpoints
+
+# PDF uploads (optional, if you want to ignore user-uploaded PDFs)
+temp.pdf
+
+# MyPy, coverage, and profiling
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.prof
